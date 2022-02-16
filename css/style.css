@@ -1,0 +1,358 @@
+/* *{
+    width: 100%;
+
+} */
+a{
+    text-decoration: none;
+}
+/* HEADER AREA START*/
+.header_area{
+    background-image: url(../img/laptop\ bg\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 660px;
+}
+.header_top{
+    padding-top: 30px;
+}
+.menu{
+    text-align: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    padding-left: 20px;
+    color: black;
+}
+.header_middle{
+    margin-top: 170px;
+    float: right;
+    width: 40%;
+}
+.header_middle h1{
+    margin-bottom: 20px;
+}
+.header_middle p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #9A9C9E;
+}
+.header_middle a{
+    display: inline-block;
+    margin-bottom: 25px;
+    background: #10C9C3;
+    padding: 10px 27px;
+    border-radius: 5px;
+    color: #C1EDEA;
+    font-size: 19px;
+}
+/* HEADER AREA END */
+/* ABOUT AREA START*/
+#about_area{
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.about_cont h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.about_cont p{
+    text-align: center;
+    /* width: 49%;
+    margin-left: 277px; */
+    margin-top: 30px;
+}
+.about_cont span {
+    text-align: center;
+    display: block;
+    font-size: 26px;
+    font-style: italic;
+}
+/* ABOUT AREA END*/
+/* SKILLS AREA START*/
+.skills_area{
+    padding-top: 130px;
+    padding-bottom: 100px;
+    background-image: url(../img/writing\ bg\ 4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+.skills_area h2{
+    margin-bottom: 30px;
+}
+.skills_box span{
+    display: none;
+}
+.line{
+    width: 40%;
+    background: #D8D8D8 ;
+    margin-bottom: 20px;
+}
+.ul_design{width: 75%; background-color:  #10C9C3; height: 4px;}
+.web_development{width: 90%; background-color:  #10C9C3; height: 4px;}
+.marketing{width: 65%; background-color:  #10C9C3; height: 4px;}
+/* SKILLS AREA END*/
+/* WORK AREA START*/
+.work_area{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #10C9C3;
+}
+.cont{
+    color:#FEFFFF ;
+    margin-left: 10px;
+}
+.icon i {
+    padding-top: 16px;
+    display: block;
+    font-size: 33px;
+    margin-left: -17px;
+    color: #D6F4F3;
+}
+.cont span {
+    font-size: 20px;
+  }
+/* WORK AREA END*/
+
+/* PRODUCTS AREA START*/
+.products {
+    overflow: hidden;
+  }
+.products h5{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #f9f9f9;
+    color: #C9C9C9;
+}
+.products_img img{
+    width: 105%;
+    height: 224px;
+}
+/* PRODUCTS AREA END*/
+/*WORK PROCESS AREA START*/
+.work_process_area{
+    padding-top: 90px;
+    padding-bottom: 70px;
+    text-align: center;
+} 
+.procress_cont p {
+    /* width: 58%;
+    padding-top: 25px;
+    margin-left: 230px; */
+    padding-bottom: 20px;
+}   
+.process_img img{
+    display: block;
+    width: 1000px;
+    margin-left: 70px;
+    height: 500px;
+    padding-bottom: 20px;
+} 
+/*WORK PROCESS AREA END*/
+/*SERVICE AREA START*/
+.service_area{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #F5F5F5;
+    
+}
+.service_cont h5{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    color: #242424;
+}
+.service_cont p {
+    font-size: 15px;
+    color: #ACACAC;
+}
+.service_cont{
+    padding-bottom: 20px;  
+}
+
+.service_cont1 h5{
+    padding-top: 15px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    color: #242424;
+}
+.service_cont1 p{
+    font-size: 15px;
+    color: #ACACAC;
+}
+.service_cont i {
+    font-size: 40px;
+    color: #8D8D8D;
+}
+.service_cont1 i{
+    font-size: 40px;
+    color: #8D8D8D;
+}
+/*SERVICE AREA END*/
+/*TESTIMONIALS AREA START*/
+.slide1{
+    background-color: #10C9C3;
+    height: 400px;
+    text-align: center;
+}
+.slide1 p{
+    /* width: 50%;
+    margin-left: 350px; */
+    padding-top: 90px;
+    font-size: 30px;
+    color: #FEFFFE;
+}
+.slide1 span{
+    display: block;
+    font-size: 20px;
+    color: #F3FBFB;
+}
+.owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 48%;
+}
+.owl-dots .owl-dot {
+    width: 8px;
+    height: 8px;
+    background: #B0E8E6 !important;
+    margin-left: 5px ;
+    border-radius: 5px;
+}
+.owl-dots .active{
+    background: white !important;
+}
+/*TESTIMONIALS AREA END*/
+/*TESTIMONIALS 2 AREA START*/
+.testimonials_2{
+    padding-top: 60px;
+    overflow: hidden;
+}
+.icon1{
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.icon1 i{
+    font-size: 75px;
+    color: #8F8F8F;
+}
+/*TESTIMONIALS 2 AREA END*/
+/*CONTACT AREA START*/
+.contact_area{
+    background: #F5F5F5;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.contact_cont{
+    text-align: center;
+}
+.contact_cont p {
+    /* width: 55%;
+    margin-left: 240px; */
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+.form_top{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.fname {
+    text-align: right;
+}
+.em{
+    text-align: left;
+}
+.form_top input {
+    width: 60%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+}
+.form_middle{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.form_middle input{
+    width: 61%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+}
+.form_end{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form_end textarea{
+    width: 61%;
+    height: 170px;
+    padding: 15px;
+    border: none;
+}
+.form_btn{
+    text-align: center; 
+    padding-bottom: 50px;
+}
+.form_btn button {
+    border: none;
+    padding: 11px 18px;
+    background: #10C9C3;
+    color: #E2F7F6;
+}
+/*CONTACT AREA END*/
+/*FOOTER AREA START*/
+.footer_area{
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background: black;
+    color: #BBBBBB;
+}
+.foot1 {
+    font-size: 15px;
+    margin-left: -37px;
+}
+.foot1 h5 {
+    padding-bottom: 12px;
+    color: #EAEAEA !important;
+}
+.foot1 span {
+    margin-top: -13px;
+    display: block;
+}
+.foot2 {
+    padding-top: 19px;
+}
+.foot2 p {
+    margin-top: -16px;
+}
+.foot3{
+    padding-top: 15px;
+}
+.foot3 p {
+    margin-top: -10px;
+}
+.foot3_two{
+    padding-top: 15px;
+}
+.foot3_two p {
+    margin-top: -10px;
+    margin-left: 17px;
+}
+.foot4{
+    margin-left: 140px;
+    padding-top: 15px;
+}
+.foot4 p{
+    margin-top: -10px;
+}
+/*FOOTER AREA END*/

@@ -1,0 +1,147 @@
+/* HEADER AREA START*/
+.header_area{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #FFFFFF;
+}
+.menu{
+    text-align: right;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+.menu .act{
+    color: #2DCEC9 !important;
+}
+/* HEADER AREA END*/
+/* MY AREA START*/
+.my_area{
+    padding-top: 130px;
+    padding-bottom: 120px;
+    background-image: url(../img/flower1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my_cont{
+    text-align: center;
+}
+.my_cont h1{
+    padding-bottom: 15px;
+    color: white;
+}
+.my_cont p{
+    font-size: 17px;
+    color: #B1AEAD;
+}
+/* MY AREA END*/
+/* WORK AREA START*/
+.work_area{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #10C9C3;
+}
+.cont{
+    color:#FEFFFF ;
+    margin-left: 10px;
+}
+.icon i {
+    padding-top: 16px;
+    display: block;
+    font-size: 33px;
+    margin-left: -17px;
+    color: #D6F4F3;
+}
+.cont span {
+    font-size: 20px;
+  }
+/* WORK AREA END*/
+/* ABOUT AREA START*/
+.about_area{
+    padding-top: 140px;
+    padding-bottom: 130px;
+    background-image: url(../img/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about_cont{
+    margin-left: 55%;
+}
+.about_cont h2{
+    padding-bottom: 20px;
+}
+.about_cont span{
+    display: block;
+    font-style: italic;
+    font-size: 20px;
+}
+/* ABOUT AREA END*/
+/* PROJECT CALL AREA START*/
+.project_area{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 90px;
+}
+.project_cont button{
+    border: none;
+    background: #10C9C3;
+    color: white;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+/* PROJECT CALL AREA END*/
+/*FOOTER AREA START*/
+.footer_area{
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background: black;
+    color: #BBBBBB;
+}
+.foot1 {
+    font-size: 15px;
+    margin-left: -37px;
+}
+.foot1 h5 {
+    padding-bottom: 12px;
+    color: #EAEAEA !important;
+}
+.foot1 span {
+    margin-top: -13px;
+    display: block;
+}
+.foot2 {
+    padding-top: 19px;
+}
+.foot2 p {
+    margin-top: -16px;
+}
+.foot3{
+    padding-top: 15px;
+}
+.foot3 p {
+    margin-top: -10px;
+}
+.foot3_two{
+    padding-top: 15px;
+}
+.foot3_two p {
+    margin-top: -10px;
+    margin-left: 17px;
+}
+.foot4{
+    margin-left: 140px;
+    padding-top: 15px;
+}
+.foot4 p{
+    margin-top: -10px;
+}
+/*FOOTER AREA END*/
+
